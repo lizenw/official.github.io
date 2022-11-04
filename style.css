@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(221, 231, 233);
+}
+.pbar{
+    background-color:rgb(221, 231, 233) ;
+    color:rgb(129, 217, 223) ;
+   
+}
+.logo{
+   border-radius: 50%;
+   height: 60px;
+   width: 60px;
+   margin-top: -8px;
+   float: left;
+
+   
+  
+}
+.socialmedia{
+    height: 40px;
+    width: 40px;
+    margin: 2px 20px ;
+}
+.naveiteam{
+    background-color: rgb(221, 231, 233);
+    margin: 20px 20px 0px 20px ;
+    border-radius:20px;
+
+}
+.mininav{
+    margin: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(129, 217, 223);
+    border-radius: 20px;
+}
+.mininav li{
+display: inline-block;
+}
+.search{
+   
+    border-radius: 20px;
+}
+.search input{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(129, 217, 223) ;
+    border-style: none;
+    font-size: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/*end of top nav*/
+.mainnav
+{
+    background-color:rgb(129, 217, 223) ;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+/*body*/
+.islide{
+   
+    background-color:rgb(184, 219, 219) ;
+    border-radius: 20px;
+}
+.conta-iner{
+    height: 80px;
+    width: 100%;
+    background-color:rgb(145, 223, 223) ;
+}
+.maindiv{
+    list-style: none;
+    text-decoration: none;
+}
+.maindiv ul{
+    float: right;
+    margin-top: 10px;
+    align-items: center;
+}
+.maindiv ul li{
+    display: inline-block;
+
+}
+.maindiv ul li a{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+   
+}
+.label{
+font-weight: bold;
+font-size: 25px;
+color: black;
+padding: 20px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(68, 131, 131);
+    border-radius: 20px;
+    padding-top: 15px;
+    color: antiquewhite;
+    margin-right: 80px;
+    padding-left: 20px;
+}
+.home:hover{
+     background-color: rgb(3, 56, 56);
+}
+.Home{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(16, 29, 29);
+    border-radius: 20px;
+    padding-top: 15px;
+    color: antiquewhite;
+    margin-right: 80px;
+    padding-left: 20px;
+}
+   
+
+.cards{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    
+}
+/*footer*/
+.footer{
+    border-radius: 20px;
+    background-color: rgb(145, 223, 223);
+}
+.sbutton{
+    background-color: rgb(145, 223, 223);
+    border: none;
+}
+/* page 2 / cs library*/
+.library{
+background-color:rgb(145, 223, 223) ;
+}
+.designimage img h3{
+   margin : 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width:524px) {
+    .socialmedia{
+        height: 20px;
+        width: 20px;
+        margin: 4px 10px ;
+    }
+}
+@media (max-width:1140px) {
+    .label{
+        font-size: 15px;
+    }
+    .home{
+        width: 80px;
+        height: 45px;
+        background-color: rgb(68, 131, 131);
+        border-radius: 20px;
+        padding-top: 12px;
+        color: antiquewhite;
+        margin-right: 80px;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .home a{
+        font-size: 13px;
+    }
+    .Home{
+        width: 80px;
+        height: 45px;
+        background-color: rgb(16, 29, 29);
+        border-radius: 20px;
+        padding-top: 15px;
+        color: antiquewhite;
+        margin-right: 80px;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .Home a{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width:981px) {
+    .label{
+        font-size: 13px;
+    }
+    .home{
+        width: 70px;
+        height: 35px;
+        background-color: rgb(68, 131, 131);
+        border-radius: 15px;
+        padding-top: 4px;
+        color: antiquewhite;
+        margin-right: 70px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .home a{
+        font-size: 9px;
+    }
+    .Home{
+        width: 70px;
+        height: 35px;
+        background-color: rgb(16, 29, 29);
+        border-radius: 10px;
+        padding-top: 4px;
+        color: antiquewhite;
+        margin-right: 70px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .Home a{
+        font-size: 9px;
+    }
+    
+}
+.img{
+    border-radius: 3px;
+}
+.welcome_message{
+    border: 2px  ;
+    
+}
+.ad_style img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
